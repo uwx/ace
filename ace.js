@@ -30,7 +30,6 @@ function decode(s) {
     let res = '';
     s = s.match(/.{2}/g)
     for (i in s) {
-      // console.log(s[i][1]);
       let n = bank.indexOf(s[i][0]);
       n += bank.indexOf(s[i][1]) * 13;
       res += String.fromCharCode(n);
@@ -44,14 +43,13 @@ function exp(x, y) {
   else {
     res = x;
     for (i=1; i<y; i++) {
-      // console.log(res, x);
       res *= x;
     }
     return res;
   }
 }
 
-blah = encode(100000009);
-console.log(blah);
-console.log(decode(blah));
-
+module.exports = {
+  encode,
+  decode
+};
