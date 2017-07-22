@@ -2,7 +2,7 @@
 Vertical compression, perfected.
 
 ### Overview
-Project specs often call for an uncompromising use of characters that do not encroach vertically into surrounding spaces. The ace library facilitates this need with a lightweight base 13 encoder that can vertically compress ASCII strings and unsigned integers.
+Project specs often call for an uncompromising use of characters that do not encroach vertically into surrounding spaces. The ace library facilitates this need with a lightweight base 13 encoder that can vertically compress ASCII strings of any size and unsigned integers up to 15 digits in length.
 
 ### Demo (example.js)
 
