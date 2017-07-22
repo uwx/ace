@@ -9,15 +9,15 @@ Project specs often call for an uncompromising use of characters that do not enc
 ```javascript
 var ace = require('./ace');
 
-stringEncode = ace.encode('Hello world!');
-console.log(stringEncode); // sowsnunusureevsuwunuvsse
+s = ace.encode('Hello world!');
+console.log(s); // osswununuserveusuwunsves
 
-stringDecode = ace.decode(stringEncode);
-console.log(stringDecode); // Hello world!
+s = ace.decode(s);
+console.log(s); // Hello world!
 
-integerEncode = ace.encode(125000);
-console.log(integerEncode); // ouxnnx
+i = ace.encode(125789472847);
+console.log(i); // xxxeusucmnz
 
-integerDecode = ace.decode(integerEncode);
-console.log(integerDecode); // 125000
+i = ace.decode(i);
+console.log(i); // 125789472847
 ```
