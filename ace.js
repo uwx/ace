@@ -23,7 +23,7 @@ function decode(s) {
     let res = 0;
     s = s.slice(0, -1)
     for (i in s) {
-      res += bank.indexOf(s[i]) * exp(13, i);
+      res += bank.indexOf(s[i]) * Math.pow(13, i);
     }
     return res;
   } else {
@@ -33,17 +33,6 @@ function decode(s) {
       let n = bank.indexOf(s[i][0]);
       n += bank.indexOf(s[i][1]) * 13;
       res += String.fromCharCode(n);
-    }
-    return res;
-  }
-}
-
-function exp(x, y) {
-  if (y == 0) return 1;
-  else {
-    res = x;
-    for (i=1; i<y; i++) {
-      res *= x;
     }
     return res;
   }
