@@ -22,9 +22,7 @@ function decode(s) {
   let res = '';
   if (s.startsWith('x')) {
     s = s.slice(1);
-    for (i in s) {
-      res += bank.indexOf(s[i]).toString(13)
-    }
+    for (i in s) res += bank.indexOf(s[i]).toString(13);
     return parseInt(res, 13);
   } else {
     s = s.match(/.{2}/g)
