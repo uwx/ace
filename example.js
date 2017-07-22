@@ -6,9 +6,8 @@ console.log(stringEncode); // cowsrexuavwuwsrezusurevswucurumurenvsuavwurecrcvrs
 stringDecode = ace.decode(stringEncode);
 console.log(stringDecode); // Be sure to drink your Ovaltine!
 
-integerEncode = ace.encode(120000);
-console.log(integerEncode); // wauenx
+integerEncode = ace.encode(125000);
+console.log(integerEncode); // ouxnnx
 
 integerDecode = ace.decode(integerEncode);
-console.log(integerDecode); // 120000
-
+console.log(integerDecode); // 125000
