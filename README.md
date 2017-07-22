@@ -4,7 +4,7 @@ A base 13 encoder / decoder that uses lowercase letters with no ascenders or des
 ## Overview
 Probably one of the most significant advances in encoding since the advent of the secret decoder ring in *A Christmas Story*, ace allows you to encode and decode strings and integers to a series of lower-case letters with no ascenders or decenders. If your project spec calls for strings that can fit into very tight horizontal spaces, this is the library for you.
 
-```
+```javascript
 var ace = require('./ace');
 
 stringEncode = ace.encode('Be sure to drink your Ovaltine!');
