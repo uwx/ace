@@ -1,5 +1,5 @@
 # ace
-The ace module is a base 13 encoder / decoder that relies on lowercase characters that do not have ascenders or descenders (the parts of a character that extend above the center line and below the baseline). This module serves no practical purpose other than to produce the aesthetic of a string of lowercase letters with uniform height. It can handle ASCII strings of any length and unsigned integers up to 15 digits.
+The ace module is a base 13 encoder / decoder that uses lowercase characters with no ascenders or descenders (the parts of a character that extend above the center line and below the baseline). This module serves no practical purpose other than to produce an interesting aesthetic. It can handle ASCII strings of any length and unsigned integers up to 15 digits.
 
 ### Demo (example.js)
 
