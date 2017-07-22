@@ -1,8 +1,8 @@
 # ace
-The ace library is a base 13 encoder / decoder that relies on lowercase characters that do not have ascenders or descenders (the parts of a character that extend above the center line and below the baseline).
+The ace module is a base 13 encoder / decoder that relies on lowercase characters that do not have ascenders or descenders (the parts of a character that extend above the center line and below the baseline).
 
 ### Overview
-Project specs often call for an uncompromising use of characters that do not encroach vertically into surrounding spaces. The ace library facilitates this need with a lightweight base 13 encoder that can handle ASCII strings of any size and unsigned integers up to 15 digits in length.
+This library serves no practical purpose other than to produce the aesthetic of a string of lowercase letters with uniform height. The ace module can handle ASCII strings of any length and unsigned integers up to 15 digits.
 
 ### Demo (example.js)
 
