@@ -1,10 +1,10 @@
 # ace
 Vertical compression, perfected.
 
-## Overview
-Project specs often call for an uncompromising use of characters that do not encroach vertically into surrounding spaces. The ace library facilitates this need with a lightweight base 13 encoder that can vertically compress ASCII strings of any length and unsigned integers of up to 32-bits.
+### Overview
+Project specs often call for an uncompromising use of characters that do not encroach vertically into surrounding spaces. The ace library facilitates this need with a lightweight base 13 encoder that can vertically compress ASCII strings and unsigned integers.
 
-## Example (example.js)
+### Demo (example.js)
 
 ```javascript
 var ace = require('./ace');
