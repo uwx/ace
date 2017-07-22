@@ -2,7 +2,7 @@
 A base 13 encoder / decoder that uses lowercase letters with no ascenders or descenders.
 
 ## Overview
-When your project spec demands an uncompromising use of characters that do not encroach vertically into surrounding spaces.
+Project specs often call for an uncompromising use of characters that do not encroach vertically into surrounding spaces. The ace library facilitates this need with a lightweight base 13 encoder that can handle strings of any length and unsigned integers of up to 32-bits.
 
 ## Example (example.js)
 
