@@ -3,7 +3,7 @@ var a = 'acemnorsuvwxz';
 function encode(s) {
   let res = '';
   if (typeof(s) == 'number' &&
-      s > 0 && s % 1 === 0 &&
+      s >= 0 && s % 1 === 0 &&
       s.toString().length < 16) { 
     s = s.toString(13);
     for (i in s) {
@@ -34,23 +34,6 @@ function decode(s) {
     res += String.fromCharCode(n);
   }
   return res;
-}
-
-function decodeOld(s) {
-  let res = '';
-  if (s.startsWith('x')) {
-    s = s.slice(1);
-    for (i in s) res += a.indexOf(s[i]).toString(13);
-    return parseInt(res, 13);
-  } else {
-    s = s.match(/.{2}/g);
-    for (i in s) {
-      let n = a.indexOf(s[i][1]);
-      n += a.indexOf(s[i][0]) * 13;
-      res += String.fromCharCode(n);
-    }
-    return res;
-  }
 }
 
 module.exports = {
