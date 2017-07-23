@@ -6,7 +6,7 @@ console.log(s); // osswununuserveusuwunsves
 s = ace.decode(s);
 console.log(s); // Hello world!
 
-i = ace.encode(125789472847);
+i = ace.encode(1257894728234345);
 console.log(i); // xxxeusucmnz
 
 i = ace.decode(i);

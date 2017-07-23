@@ -2,7 +2,7 @@ var a = 'acemnorsuvwxz';
 
 function encode(s) {
   let res = '';
-  if (s % 1 === 0) { 
+  if (s % 1 === 0 && s.toString().length < 16) { 
     s = s.toString(13);
     for (i in s) {
       res += a[parseInt(s[i], 13)];
