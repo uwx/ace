@@ -6,11 +6,11 @@ console.log(s); // osswununuserveusuwunsves
 s = ace.decode(s);
 console.log(s); // Hello world!
 
-i = ace.encode(1257894728234345);
-console.log(i); // xxxeusucmnz
+i = ace.encode(125283948);
+console.log(i); // xczzosacw
 
 i = ace.decode(i);
-console.log(i); // 125789472847
+console.log(i); // 125283948
 
 f = ace.encode(123.5);
 console.log(f); // mwmxmzmsnc
