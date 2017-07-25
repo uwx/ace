@@ -1,7 +1,7 @@
 # ace
-The ace module is a base 13 encoder / decoder that uses lowercase characters with no ascenders or descenders (the parts of a character that extend above the median and below the baseline). This module serves no practical purpose other than to produce an interesting aesthetic. It can handle ASCII strings of any length and unsigned integers of up to 15 digits. Floats are encoded as strings. As you can see in the example below, integers get compressed slightly due to the base 13 encoding. Strings take up extra space as it takes two characters to represent each 128-bit ASCII character.
+The ace module is a base 13 encoder / decoder that uses lowercase characters with no ascenders or descenders (the parts of a character that extend above the median and below the baseline). This module serves no practical purpose other than to produce an interesting aesthetic. It can handle ASCII strings and signed integers. Floats are encoded as strings, but a special float encoder is in progress.
 
-One possible application of this would be to increment "share" links in an aesthetic way. Up to 999 trillion unique links could be incremented.
+One possible application of this would be to increment "share" links in an aesthetic way.
 
 ## Changelog
 

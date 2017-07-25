@@ -14,7 +14,7 @@ var a = 'acemnorsuvwxz';
 
 function encode(s) {
   if (Math.abs(s) > 9007199254740991) {
-    console.warn('Integers greater than 9007199254740991 may not encode accurately');
+    console.warn('Warning: Integers greater than 9007199254740991 may not encode accurately');
   }
   if (typeof(s) == 'string') return encodeString(s);
   if (typeof(s) == 'number' && s % 1 === 0) return encodeInteger(s);
