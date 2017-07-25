@@ -7,11 +7,11 @@ One possible application of this would be to increment "share" links in an aesth
 
 ### 0.1.3
 
-- Integers limit increased to the JavaScript MAX_SAFE_INTEGER limit of 9007199254740991
-- Integers greater than MAX_SAFE_INTEGER throw a warning but still encode
+- Limit on integers removed
+- Integers greater than MAX_SAFE_INTEGER (9007199254740991) provide an accuracy warning
 - Negative integers now encoded as integers with their own special flag (z)
 - Strings are encoded with their own special flag (s)
-- Refactoring of functions
+- Refactoring
 - MIT license added
   
 ## Usage
