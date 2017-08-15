@@ -1,8 +1,8 @@
 {
-  "name": "simplinput",
+  "name": "b13",
   "version": "1.0.0",
-  "description": "inquirer.js made simpler!",
-  "main": "index.js",
+  "description": "base64 for mobile devices",
+  "main": "b13.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
