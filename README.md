@@ -1,23 +1,8 @@
-# ace
+# b13
 
-The ace module is a base 13 encoder / decoder that uses lowercase characters with no ascenders or descenders (the parts of a character that extend above the median and below the baseline). This module serves no practical purpose other than to produce an interesting aesthetic. It can handle ASCII strings, signed integers, and signed floats.
+Base13 encoding designed to be intuitive to type by fat people on a phone keyboard.
+Based on [alanhett/ace](https://github.com/alanhett/ace).
 
-## Changelog
-
-### 0.1.4
-
-- Special float encoder added with flags 'o' and 'r' for positive and negative floats
-- Refactoring
-
-### 0.1.3
-
-- Limit on integers removed
-- Integers greater than MAX_SAFE_INTEGER (9007199254740991) provide an accuracy warning
-- Negative integers now encoded as integers with their own special flag 'z'
-- Strings are encoded with their own special flag 's'
-- Refactoring
-- MIT license added
-  
 ## Usage
 
 ```javascript
