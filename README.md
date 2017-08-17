@@ -1,6 +1,6 @@
 # b13
 
-Base13 encoding designed to be intuitive to type by fat people on a phone keyboard.
+Base13 encoding designed to be intuitive to type by people on a phone keyboard.
 Based on [alanhett/ace](https://github.com/alanhett/ace).
 
 ## Usage
