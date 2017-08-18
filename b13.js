@@ -96,7 +96,7 @@
   // y - array (implicit, so array-like and Uint8Array works as well)
 
   function encode(s) {
-    if (isNaN(s)) return 'nan'; // specify test for NaN since NaN does not equal itself
+    if (s !== s) return 'nan'; // specify test for NaN since NaN does not equal itself
     if (!s) return ''; // if no `s` provided, or s == ''
     if (typeof(s) == 'string') return 's' + encodeString(s);
     if (typeof(s) == 'number') return 'b' + encodeNumber(s);
